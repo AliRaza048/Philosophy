@@ -1,0 +1,2193 @@
+<html>
+    <head>
+        <title>
+            Philosophy
+        </title>
+    </head>
+    <body>
+        <a class="scroll" href="#">&#8593</a>
+        <style>
+            /* back to up*/
+            html{
+                scroll-behavior: smooth;
+            }
+            .scroll{
+                position: fixed;
+                width: 55px;
+                height: 55px;
+                background-color: black;
+                bottom: 30px;
+                right: 30px;
+                text-decoration: none;
+                text-align: center;
+                line-height: 50px;
+                color: white;
+                font-size: 20px;
+                border-radius: 100%;
+                transition: 0.5s;
+            }
+            .scroll:hover{
+                background-color: #0054A5;
+                transition: 0.5s;
+            }
+            /*end*/
+
+            body{
+                margin: 0%;
+                /*write in end*/
+                background-color: rgb(29, 28, 28);
+                margin-bottom: 48px;
+            }
+            .part1{
+                background-image: url(bg.png);
+            }
+            .img{
+                background-image: url(icon.png);
+                width: 115px;
+                height: 30px;
+                margin-top: 37px;
+                margin-left: 50px;
+                cursor: pointer;
+            }
+            .text{
+                color: white;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 50px;
+                font-weight: bolder;
+                display: flex;
+                justify-content: center;
+                margin-top: 22px;
+                cursor: pointer;
+            }
+            .search{
+                background-image: url(icon-search.png);
+                background-size: 30px 29px;
+                width: 30px;
+                height: 29px;
+                margin-top: -38px;
+                margin-left: 68px;
+            }
+            .index ul{
+                display: flex;
+            }
+            .index li{
+                list-style: none;
+                padding-right: 350px;
+            }
+            .index h5{
+                margin-right: 25px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 100;
+                font-size: 12px;
+                color: white;
+                margin-top: 5px;        
+            }
+            .index button{
+                width: 100px;
+                height: 30px;
+                margin-top: 40px;
+                margin-left: -15px;
+                background-image: url(bg.png);
+                border: 0px;
+            }
+            .line{
+                background-color: rgb(34, 34, 34);
+                width: 1145px;
+                height: 1px;
+                margin-left: 90px;
+            }
+            .menu{
+                margin-top: 28px;
+                margin-left: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: medium;
+                background-image: url(bg.png);
+                border: 9px;
+                color: rgb(155, 151, 151);
+            }
+            .button{
+                margin-left: 400px;
+            }
+            button:hover{
+	            cursor: pointer;
+	            color: white;
+            }
+            .menu select{
+                background-image: url(bg.png);
+                color: rgb(155, 151, 151);
+                font-size: medium;
+                border: none;
+            }
+            .menu option{
+                background-color: black;
+            }
+            select:hover{
+                cursor: pointer;
+	            color: white;
+            }
+            .portfolio1{
+                background-image: url(portfolio11.png);
+                background-size: 815px 565px;
+                width: 810px;
+                height: 565px;
+                margin-top: 55px;
+                margin-left: -385px;
+            }
+            .portfolio2{
+                background-image: url(portfolio21.png);
+                background-size: 405px 280px;
+                width: 405px;
+                height: 280px;
+                margin-top: 55px;
+            }
+            .portfolio3{
+                background-image: url(portfolio31.png);
+                background-size: 405px 285px;
+                width: 405px;
+                height: 285px;
+                margin-top: 335px;
+                margin-left: -405px;
+            }
+            .button ul{
+                display: flex;
+            }
+            .button li{
+                list-style: none;
+            }
+            .portfolio1:hover{
+                background-image: url(portfolio12.png);
+                background-size: 815px 565px;
+                width: 810px;
+                height: 565px;
+                margin-top: 55px;
+                transition: 0.5s;
+            }
+            .portfolio2:hover{
+                background-image: url(portfolio22.png);
+                background-size: 405px 280px;
+                width: 405px;
+                height: 280px;
+                margin-top: 55px;
+                transition: 0.5s;
+            }
+            .portfolio3:hover{
+                background-image: url(portfolio32.png);
+                background-size: 405px 285px;
+                width: 405px;
+                height: 285px;
+                margin-top: 335px;
+                margin-left: -405px;
+                transition: 0.5s;
+            }
+            .portfolio1 button{
+                background-color: #01aef0;
+                color: white;
+                margin-top: 250px;
+                margin-left: 70px;
+                border: none;
+                width: 70px;
+                height: 25px;
+            }
+            .portfolio1 h1{
+                color: white;
+                font-family:"librebaskerville-bold",serif;
+                font-size: 41px;
+                margin-left: 70px;
+            }
+            .button .john{
+                background-image: url(John.png);
+                background-size: 43px 42px;
+                width: 43px;
+                height: 42px;
+                border-radius: 100%;
+                margin-left: 10px;
+                margin-top: -10px;
+                cursor: pointer;
+            }
+            .portfolio1 li{
+                color: rgb(155, 151, 151);
+                margin-left: 20px;
+                margin-top: 10px;
+                font-family:"metropolis-semibold",sans-serif;
+                font-size: 1rem;
+                font-weight: bolder;
+                cursor: pointer;
+            }
+            .portfolio1 .sub-list1{
+                list-style: outside;
+                margin-left: 25px;
+                cursor: auto;
+            }
+            .portfolio1 h1:hover{
+                cursor: pointer;
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-decoration-color: rgb(46, 46, 46);
+                text-decoration-thickness: 1px;
+                text-underline-offset: 10px;
+            }
+            .portfolio2 button{
+                background-color: #679A23;
+                color: white;
+                border: none;
+                width: 110px;
+                height: 20px;
+                font-size: 12px;
+                margin-left: 37px;
+                margin-top: 135px;
+            }
+            .portfolio2 h1{
+                color: white;
+                font-family:"librebaskerville-bold",serif;
+                font-size: 22px;
+                margin-left: 37px;
+            }
+            .portfolio2 li{
+                color: rgb(179, 175, 175);
+                font-family:"metropolis-semibold",sans-serif;
+                font-size: 0.9rem;
+                font-weight: bolder;
+                cursor: pointer;
+            }
+            .portfolio2 .sub-list2{
+                list-style: outside;
+                margin-left: 23px;
+                cursor: auto;
+            }
+            .portfolio2 h1:hover{
+                cursor: pointer;
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-decoration-color: rgb(46, 46, 46);
+                text-decoration-thickness: 1px;
+                text-underline-offset: 6px;
+            }
+            .portfolio3 button{
+                background-color: #679A23;
+                color: white;
+                border: none;
+                width: 95px;
+                height: 20px;
+                font-size: 12px;
+                margin-left: 37px;
+                margin-top: 135px;
+            }
+            .portfolio3 h1{
+                color: white;
+                font-family:"librebaskerville-bold",serif;
+                font-size: 22px;
+                margin-left: 37px;
+            }
+            .portfolio3 li{
+                color: rgb(155, 151, 151);
+                font-family:"metropolis-semibold",sans-serif;
+                font-size: 0.9rem;
+                font-weight: bolder;
+                cursor: pointer;
+            }
+            .portfolio3 .sub-list3{
+                list-style: outside;
+                margin-left: 23px;
+                cursor: auto;
+            }
+            .portfolio3 h1:hover{
+                cursor: pointer;
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-decoration-color: rgb(46, 46, 46);
+                text-decoration-thickness: 1px;
+                text-underline-offset: 6px;
+            }
+            .part2{
+                background-color: #f2f2f2;
+                margin: 0px;
+                margin-top: -15px; 
+            }
+            .part2 ul{
+                display: flex;
+            }
+            .part2 li{
+                list-style: none;    
+            }
+            .standard{
+                background-image: url(standard11.png);
+                background-size: 320px 365px;
+                width: 320px;
+                height: 365px;
+                margin-left: 115px;
+                margin-top: 80px;
+            }
+            .standard:hover{
+                cursor: pointer;
+                background-image: url(standard12.png);
+                transition: 0.4s;
+            }
+            .part2 .sub-standard{
+                background-color: white;
+                background-size: 320px 400px;
+                width: 320px;
+                height: 400px;
+                margin-left: 115px;
+            }
+            .part2 .sub-standard p{
+               font-family:arial;
+               color: rgb(153, 151, 151);
+               margin: 0px;
+               padding-top: 30px;
+               padding-left: 30px;
+               line-height: 28px;
+               font-size: medium;
+            }
+            .part2 .sub-standard h1{
+                margin-left: 30px;
+                font-size: 25px;
+            }
+            .part2 .sub-standard h1:hover{
+                cursor: pointer;
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-decoration-color: rgb(194, 191, 191);
+                text-decoration-thickness: 1px;
+                text-underline-offset: 6px;
+            }
+            .part2 .sub-standard a{
+                color: #0054A5;
+                text-decoration: none;
+                font-family: arial;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .part2 .sub-standard .standard-design{
+                margin-left: 30px;
+            }
+            .part2 .sub-standard .standard-design:hover{
+                color: black;
+            }
+            .part2 .sub-standard .standard-photography:hover{
+                color: black;
+            }
+            .photography{
+                background-image: url(photography.png);
+                background-size: 320px 320px;
+                width: 320px;
+                height: 320px;
+                margin-left: 115px;
+                margin-top: 40px;
+                cursor: zoom-in;
+            }
+            .part2 .sub-photography{
+                background-color: white;
+                background-size: 320px 400px;
+                width: 320px;
+                height: 400px;
+                margin-left: 115px;
+            }
+            .part2 .sub-photography p{
+               font-family:arial;
+               color: rgb(153, 151, 151);
+               margin: 0px;
+               padding-top: 30px;
+               padding-left: 30px;
+               line-height: 28px;
+               font-size: medium;
+            }
+            .part2 .sub-photography h1{
+                margin-left: 30px;
+                font-size: 25px;
+            }
+            .part2 .sub-photography h1:hover{
+                cursor: pointer;
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-decoration-color: rgb(194, 191, 191);
+                text-decoration-thickness: 1px;
+                text-underline-offset: 6px;
+            }
+            .part2 .sub-photography a{
+                color: #0054A5;
+                text-decoration: none;
+                font-family: arial;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .part2 .sub-photography .family{
+                margin-left: 30px;
+            }
+            .part2 .sub-photography .family:hover{
+                color: black;
+            }
+            .part2 .sub-photography .photography-photography:hover{
+                color: black;
+            }
+            .colorlib{
+                background-color: white;
+                background-size: 320px 370px;
+                width: 320px;
+                height: 370px;
+                margin-left: 115px;
+                margin-top: 40px;
+            }
+            .part2 .colorlib .chain-icon{
+                background-image: url(chain-icon.png);
+                background-size: 46px 50px;
+                width: 46px;
+                height: 50px;
+                margin: auto;
+                margin-top: 15px;
+            }
+            .part2 .colorlib p{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 1.8rem;
+                text-align: center;
+                margin-top: 40px;
+                letter-spacing: 1px;
+            }
+            .part2 .colorlib h4{
+                font-family:"metropolis-semibold",sans-serif;
+                color: rgb(153, 151, 151);
+                text-align: center;
+                font-weight: 100;
+                margin-top: 45px;
+            }
+            .part2 .colorlib h4:hover{
+                cursor: pointer;
+                color: black;
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-decoration-color: rgb(194, 191, 191);
+                text-decoration-thickness: 1px;
+                text-underline-offset: 6px;
+                transition-duration: 0.4s;
+            }
+            .moments{
+                background-image: url(moments11.png);
+                background-size: 320px 365px;
+                width: 320px;
+                height: 365px;
+                margin-left: 115px;
+                margin-top: 40px;
+            }
+            .moments:hover{
+                cursor: pointer;
+                background-image: url(moments12.png);
+                transition: 0.4s;
+            }
+            .part2 .sub-moments{
+                background-color: white;
+                background-size: 320px 400px;
+                width: 320px;
+                height: 400px;
+                margin-left: 115px;
+            }
+            .part2 .sub-moments p{
+               font-family:arial;
+               color: rgb(153, 151, 151);
+               margin: 0px;
+               padding-top: 30px;
+               padding-left: 30px;
+               line-height: 28px;
+               font-size: medium;
+            }
+            .part2 .sub-moments h1{
+                margin-left: 30px;
+                font-size: 25px;
+            }
+            .part2 .sub-moments h1:hover{
+                cursor: pointer;
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-decoration-color: rgb(194, 191, 191);
+                text-decoration-thickness: 1px;
+                text-underline-offset: 6px;
+            }
+            .part2 .sub-moments a{
+                color: #0054A5;
+                text-decoration: none;
+                font-family: arial;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .part2 .sub-moments .family1{
+                margin-left: 30px;
+            }
+            .part2 .sub-moments .family1:hover{
+                color: black;
+            }
+            .part2 .sub-moments .relationship:hover{
+                color: black;
+            }
+            .trip{
+                background-image: url(trip11.png);
+                background-size: 320px 320px;
+                width: 320px;
+                height: 320px;
+                margin-left: 115px;
+                margin-top: 40px;
+            }
+            .trip:hover{
+                cursor: pointer;
+                background-image: url(trip12.png);
+                transition: 0.4s;
+            }
+            .part2 .sub-trip{
+                background-color: white;
+                background-size: 320px 400px;
+                width: 320px;
+                height: 400px;
+                margin-left: 115px;
+            }
+            .part2 .sub-trip p{
+               font-family:arial;
+               color: rgb(153, 151, 151);
+               margin: 0px;
+               padding-top: 30px;
+               padding-left: 30px;
+               line-height: 28px;
+               font-size: medium;
+            }
+            .part2 .sub-trip h1{
+                margin-left: 30px;
+                font-size: 25px;
+            }
+            .part2 .sub-trip h1:hover{
+                cursor: pointer;
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-decoration-color: rgb(194, 191, 191);
+                text-decoration-thickness: 1px;
+                text-underline-offset: 6px;
+            }
+            .part2 .sub-trip a{
+                color: #0054A5;
+                text-decoration: none;
+                font-family: arial;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .part2 .sub-trip .travel{
+                margin-left: 30px;
+            }
+            .part2 .sub-trip .travel:hover{
+                color: black;
+            }
+            .part2 .sub-trip .vacation:hover{
+                color: black;
+            }
+            .dieter{
+                background-color: white;
+                background-size: 320px 515px;
+                width: 320px;
+                height: 515px;
+                margin-left: 40px;
+                margin-top: 80px;
+            }
+            .part2 .dieter h1{
+                color: rgb(201, 198, 198);
+                font-size: 75px;
+                text-align: center;
+                padding-top: 35px;
+                cursor: default;
+            }
+            .part2 .dieter p{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 1.8rem;
+                text-align: center;
+                margin-top: -50px;
+                letter-spacing: 1px;
+            }
+            .part2 .dieter h4{
+                font-family:"metropolis-semibold",sans-serif;
+                color: rgb(153, 151, 151);
+                text-align: center;
+                font-weight: 100;
+                margin-top: 55px;
+            }
+            .cookies{
+                background-image: url(cookies.png);
+                background-size: 320px 320px;
+                width: 320px;
+                height: 320px;
+                margin-left: 40px;
+                margin-top: 40px;
+            }
+            .cookies:hover{
+                cursor: pointer;
+                background-image: url(cookies12.png);
+                transition: 0.3s;
+            }
+            .part2 .sub-dieter{
+                background-color: white;
+                background-size: 320px 400px;
+                width: 320px;
+                height: 400px;
+                margin-left: 40px;
+            }
+            .part2 .sub-dieter p{
+               font-family:arial;
+               color: rgb(153, 151, 151);
+               margin: 0px;
+               padding-top: 30px;
+               padding-left: 30px;
+               line-height: 28px;
+               font-size: medium;
+            }
+            .part2 .sub-dieter h1{
+                margin-left: 30px;
+                font-size: 25px;
+            }
+            .part2 .sub-dieter h1:hover{
+                cursor: pointer;
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-decoration-color: rgb(194, 191, 191);
+                text-decoration-thickness: 1px;
+                text-underline-offset: 6px;
+            }
+            .part2 .sub-dieter a{
+                color: #0054A5;
+                text-decoration: none;
+                font-family: arial;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .part2 .sub-dieter .cooking{
+                margin-left: 30px;
+            }
+            .part2 .sub-dieter .cooking:hover{
+                color: black;
+            }
+            .part2 .sub-dieter .cookies-health:hover{
+                color: black;
+            }
+            .workspace{
+                background-image: url(workspace.webp);
+                background-size: 320px 400px;
+                width: 320px;
+                height: 400px;
+                margin-left: 40px;
+                margin-top: 7px;
+            }
+            .part2 .sub-workspace{
+                background-color: white;
+                background-size: 320px 400px;
+                width: 320px;
+                height: 400px;
+                margin-left: 40px;
+            }
+            .part2 .sub-workspace p{
+               font-family:arial;
+               color: rgb(153, 151, 151);
+               margin: 0px;
+               padding-top: 30px;
+               padding-left: 30px;
+               line-height: 28px;
+               font-size: medium;
+            }
+            .part2 .sub-workspace h1{
+                margin-left: 30px;
+                font-size: 25px;
+            }
+            .part2 .sub-workspace h1:hover{
+                cursor: pointer;
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-decoration-color: rgb(194, 191, 191);
+                text-decoration-thickness: 1px;
+                text-underline-offset: 6px;
+            }
+            .part2 .sub-workspace a{
+                color: #0054A5;
+                text-decoration: none;
+                font-family: arial;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .part2 .sub-workspace .work{
+                margin-left: 30px;
+            }
+            .part2 .sub-workspace .work:hover{
+                color: black;
+            }
+            .part2 .sub-workspace .management:hover{
+                color: black;
+            }
+            .old-days{
+                background-image: url(old-days11.png);
+                background-size: 320px 320px;
+                width: 320px;
+                height: 320px;
+                margin-left: 40px;
+                margin-top: 40px;
+            }
+            .old-days:hover{
+                cursor: pointer;
+                background-image: url(old-days12.png);
+                transition: 0.4s;
+            }
+            .part2 .sub-old-days{
+                background-color: white;
+                background-size: 320px 405px;
+                width: 320px;
+                height: 405px;
+                margin-left: 40px;
+            }
+            .part2 .sub-old-days p{
+               font-family:arial;
+               color: rgb(153, 151, 151);
+               margin: 0px;
+               padding-top: 30px;
+               padding-left: 30px;
+               line-height: 28px;
+               font-size: medium;
+            }
+            .part2 .sub-old-days h1{
+                margin-left: 30px;
+                font-size: 25px;
+            }
+            .part2 .sub-old-days h1:hover{
+                cursor: pointer;
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-decoration-color: rgb(194, 191, 191);
+                text-decoration-thickness: 1px;
+                text-underline-offset: 6px;
+            }
+            .part2 .sub-old-days a{
+                color: #0054A5;
+                text-decoration: none;
+                font-family: arial;
+                font-size: 15px;
+                font-weight: bold;
+                margin-left: 30px;
+            }
+            .part2 .sub-old-days a:hover{
+                cursor: pointer;
+                color: black;
+            }
+            .caffeine{
+                background-image: url(caffeine11.png);
+                background-size: 320px 320px;
+                width: 320px;
+                height: 320px;
+                margin-left: 40px;
+                margin-top: 80px;
+            }
+            .caffeine:hover{
+                cursor: pointer;
+                background-image: url(caffeine12.png);
+                transition: 0.4s;
+            }
+            .part2 .sub-caffeine{
+                background-color: white;
+                background-size: 320px 400px;
+                width: 320px;
+                height: 400px;
+                margin-left: 40px;
+            }
+            .part2 .sub-caffeine p{
+               font-family:arial;
+               color: rgb(153, 151, 151);
+               margin: 0px;
+               padding-top: 30px;
+               padding-left: 30px;
+               line-height: 28px;
+               font-size: medium;
+            }
+            .part2 .sub-caffeine h1{
+                margin-left: 30px;
+                font-size: 25px;
+            }
+            .part2 .sub-caffeine h1:hover{
+                cursor: pointer;
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-decoration-color: rgb(194, 191, 191);
+                text-decoration-thickness: 1px;
+                text-underline-offset: 6px;
+            }
+            .part2 .sub-caffeine a{
+                color: #0054A5;
+                text-decoration: none;
+                font-family: arial;
+                font-size: 15px;
+                font-weight: bold;
+                margin-left: 30px;
+            }
+            .part2 .sub-caffeine a:hover{
+                cursor: pointer;
+                color: black;
+            }
+            .parks{
+                background-image: url(parks11.png);
+                background-size: 320px 320px;
+                width: 320px;
+                height: 320px;
+                margin-left: 40px;
+                margin-top: 40px;
+            }
+            .parks:hover{
+                cursor: pointer;
+                background-image: url(parks12.png);
+                transition: 0.4s;
+            }
+            .part2 .sub-parks{
+                background-color: white;
+                background-size: 320px 400px;
+                width: 320px;
+                height: 400px;
+                margin-left: 40px;
+            }
+            .part2 .sub-parks p{
+               font-family:arial;
+               color: rgb(153, 151, 151);
+               margin: 0px;
+               padding-top: 30px;
+               padding-left: 30px;
+               line-height: 28px;
+               font-size: medium;
+            }
+            .part2 .sub-parks h1{
+                margin-left: 30px;
+                font-size: 25px;
+            }
+            .part2 .sub-parks h1:hover{
+                cursor: pointer;
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-decoration-color: rgb(194, 191, 191);
+                text-decoration-thickness: 1px;
+                text-underline-offset: 6px;
+            }
+            .part2 .sub-parks a{
+                color: #0054A5;
+                text-decoration: none;
+                font-family: arial;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .part2 .sub-parks .parks-health{
+                margin-left: 30px;
+            }
+            .part2 .sub-parks .parks-health:hover{
+                color: black;
+            }
+            .part2 .sub-parks .parks-lifestyle:hover{
+                color: black;
+            }
+            .music{
+                background-image: url(music11.png);
+                background-size: 320px 365px;
+                width: 320px;
+                height: 365px;
+                margin-left: 40px;
+                margin-top: 40px;
+            }
+            .music:hover{
+                cursor: pointer;
+                background-image: url(music12.png);
+                transition: 0.4s;
+            }
+            .part2 .sub-music{
+                background-color: white;
+                background-size: 320px 475px;
+                width: 320px;
+                height: 475px;
+                margin-left: 40px;
+            }
+            .part2 .sub-music p{
+               font-family:arial;
+               color: rgb(153, 151, 151);
+               margin: 0px;
+               padding-top: 30px;
+               padding-left: 30px;
+               line-height: 28px;
+               font-size: medium;
+            }
+            .part2 .sub-music h1{
+                margin-left: 30px;
+                font-size: 25px;
+            }
+            .part2 .sub-music h1:hover{
+                cursor: pointer;
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-decoration-color: rgb(194, 191, 191);
+                text-decoration-thickness: 1px;
+                text-underline-offset: 6px;
+            }
+            .part2 .sub-music a{
+                color: #0054A5;
+                text-decoration: none;
+                font-family: arial;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .part2 .sub-music .music-music{
+                margin-left: 30px;
+            }
+            .part2 .sub-music .music-music:hover{
+                color: black;
+            }
+            .part2 .sub-music .music-lifestyle:hover{
+                color: black;
+            }
+            .post{
+                background-image: url(post11.png);
+                background-size: 320px 320px;
+                width: 320px;
+                height: 320px;
+                margin-left: 40px;
+                margin-top: 40px;
+            }
+            .post:hover{
+                cursor: pointer;
+                background-image: url(post12.png);
+                transition: 0.4s;
+            }
+            .part2 .sub-post{
+                background-color: white;
+                background-size: 320px 400px;
+                width: 320px;
+                height: 400px;
+                margin-left: 40px;
+            }
+            .part2 .sub-post p{
+               font-family:arial;
+               color: rgb(153, 151, 151);
+               margin: 0px;
+               padding-top: 30px;
+               padding-left: 30px;
+               line-height: 28px;
+               font-size: medium;
+            }
+            .part2 .sub-post h1{
+                margin-left: 30px;
+                font-size: 25px;
+            }
+            .part2 .sub-post h1:hover{
+                cursor: pointer;
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-decoration-color: rgb(194, 191, 191);
+                text-decoration-thickness: 1px;
+                text-underline-offset: 6px;
+            }
+            .part2 .sub-post a{
+                color: #0054A5;
+                text-decoration: none;
+                font-family: arial;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .part2 .sub-post .post-design{
+                margin-left: 30px;
+            }
+            .part2 .sub-post .post-design:hover{
+                color: black;
+            }
+            .part2 .sub-post .post-photography:hover{
+                color: black;
+            }
+
+            .part2 .arrow-left{
+                background-image: url(arrow-left11.png);
+                background-size: 50px 50px;
+                width: 50px;
+                height: 50px;
+                border: none;
+                border-radius: 25px;
+                box-shadow: 0px 5px 5px rgb(211, 210, 210);
+                margin-left: 430px;
+                margin-top: 80px;
+                transition: 0.3s;
+            }
+            .part2 .arrow-left:hover{
+                background-image: url(arrow-left12.png);
+            }
+            .part2 .b1{
+                background-color: #f2f2f2;
+                background-size: 30px 37px;
+                width: 30px;
+                height: 37px;
+                border: none;
+                border-radius: 5px;
+                font-size: medium;
+                font-weight: bold;
+                box-shadow: none;
+                margin-left: 20px;
+                margin-top: 85px;
+                transition: 0.2s;
+            }
+            .part2 .b1:hover{
+                background-color: #c0bdbd;
+            }
+            .part2 .b2{
+                background-color: black;
+                color: white;
+                background-size: 30px 37px;
+                width: 30px;
+                height: 37px;
+                border: none;
+                border-radius: 5px;
+                font-size: medium;
+                font-weight: bold;
+                box-shadow: none;
+                cursor: text;
+                margin-left: 8px;
+                margin-top: 85px;
+                transition: 0.2s;
+            }
+            .part2 .b3{
+                background-color: #f2f2f2;
+                background-size: 30px 37px;
+                width: 30px;
+                height: 37px;
+                border: none;
+                border-radius: 5px;
+                font-size: medium;
+                font-weight: bold;
+                box-shadow: none;
+                margin-left: 8px;
+                margin-top: 85px;
+                transition: 0.2s;
+            }
+            .part2 .b3:hover{
+                background-color: #c0bdbd;
+            }
+            .part2 .b4{
+                background-color: #f2f2f2;
+                background-size: 30px 37px;
+                width: 30px;
+                height: 37px;
+                border: none;
+                border-radius: 5px;
+                font-size: medium;
+                font-weight: bold;
+                box-shadow: none;
+                margin-left: 8px;
+                margin-top: 85px;
+                transition: 0.2s;
+            }
+            .part2 .b4:hover{
+                background-color: #c0bdbd;
+            }
+            .part2 .b5{
+                background-color: #f2f2f2;
+                background-size: 30px 37px;
+                width: 30px;
+                height: 37px;
+                border: none;
+                border-radius: 5px;
+                font-size: medium;
+                font-weight: bold;
+                box-shadow: none;
+                margin-left: 8px;
+                margin-top: 85px;
+                transition: 0.2s;
+            }
+            .part2 .b5:hover{
+                background-color: #c0bdbd;
+            }
+            .part2 .bdots{
+                background-color: #f2f2f2;
+                background-size: 30px 37px;
+                width: 30px;
+                height: 37px;
+                border: none;
+                border-radius: 5px;
+                font-size: large;
+                font-weight: bold;
+                box-shadow: none;
+                margin-left: 8px;
+                margin-top: 85px;
+                transition: 0.2s;
+            }
+            .part2 .bdots:hover{
+                cursor: text;
+                background-color: #c0bdbd;
+            }
+            .part2 .b8{
+                background-color: #f2f2f2;
+                background-size: 30px 37px;
+                width: 30px;
+                height: 37px;
+                border: none;
+                border-radius: 5px;
+                font-size: medium;
+                font-weight: bold;
+                box-shadow: none;
+                margin-left: 8px;
+                margin-top: 85px;
+                transition: 0.2s;
+            }
+            .part2 .b8:hover{
+                background-color: #c0bdbd;
+            }
+            .part2 .arrow-right{
+                background-image: url(arrow-right11.png);
+                background-size: 50px 50px;
+                width: 50px;
+                height: 50px;
+                border: none;
+                border-radius: 25px;
+                box-shadow: 0px 5px 5px rgb(211, 210, 210);
+                margin-left: 20px;
+                margin-top: 80px;
+                margin-bottom: 130px;
+                transition: 0.3s;
+            }
+            .part2 .arrow-right:hover{
+                background-image: url(arrow-right12.png);
+            }
+            .part3{
+                background-color: white;
+                margin: 0px;
+                margin-top: -16px;
+            }
+            .part3 ul{
+                display: flex;
+            }
+            .part3 li{
+                list-style: none;   
+            }
+            .part3 .heading1 h1{
+                margin-left: -445px; 
+                font-size: 28px;
+                letter-spacing: 1px;
+                margin-top: 70px;
+            }
+            .part3 .heading2 h1{
+                margin-left: 15px;
+                font-size: 28px;
+                letter-spacing: 1px;
+                margin-top: 70px;
+            }
+            .part3 .heading2 p{
+                margin-left: 100px;
+                margin-top: 40px;
+                font-family:arial;
+                color: rgb(134, 132, 132);
+                line-height: 28px;
+                font-size: medium;
+                font-weight: 100;
+            }
+            .part3 .heading2 .facebook2{
+                background-image: url(facebook11.png);
+                background-size: 22px 30px;
+                width: 22px;
+                height: 30px;
+                margin-left: 55px;
+                margin-top: 7px;
+                transition: 0.3s;
+            }
+            .part3 .heading2 .facebook2:hover{
+                cursor: pointer;
+                background-image: url(facebook12.png);
+                background-size: 22px 33px;
+                width: 22px;
+                height: 33px;
+                transition: 0.3s;
+            }
+            .part3 .heading2 .twitter2{
+                background-image: url(twitter11.png);
+                background-size: 28px 30px;
+                width: 28px;
+                height: 30px;
+                margin-left: 10px;
+                margin-top: 7px;
+                transition: 0.3s;
+            }
+            .part3 .heading2 .twitter2:hover{
+                cursor: pointer;
+                background-image: url(twitter12.png);
+                background-size: 28px 28px;
+                width: 28px;
+                height: 28px;
+                transition: 0.3s;
+            }
+            .part3 .heading2 .instagram2{
+                background-image: url(instagram11.png);
+                background-size: 28px 30px;
+                width: 28px;
+                height: 30px;
+                margin-left: 10px;
+                margin-top: 7px;
+                transition: 0.3s;
+            }
+            .part3 .heading2 .instagram2:hover{
+                cursor: pointer;
+                background-image: url(instagram12.png);
+                background-size: 28px 30px;
+                width: 28px;
+                height: 30px;
+                transition: 0.3s;
+            }
+            .part3 .heading2 .pin2{
+                background-image: url(pin11.png);
+                background-size: 28px 30px;
+                width: 28px;
+                height: 30px;
+                margin-left: 10px;
+                margin-top: 7px;
+                transition: 0.3s;
+            }
+            .part3 .heading2 .pin2:hover{
+                cursor: pointer;
+                background-image: url(pin12.png);
+                background-size: 28px 30px;
+                width: 28px;
+                height: 30px;
+                transition: 0.3s;
+            }
+            .part3 .div1{
+                background-image: url(parks11.png);
+                background-size: 70px 70px;
+                width: 70px;
+                height: 70px;
+                margin-left: 20px;
+                margin-top: 18px;
+                cursor: pointer;
+            }
+            .part3 .div2 h4{
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left: 25px;
+                margin-top: 18px;
+                font-weight: bolder;
+                cursor: pointer;
+            }
+            .part3 .div2 h4:hover{
+                color: #02529c;
+            }
+            .part3 .div2 h5{
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(153, 151, 151);
+                margin-left: 25px;
+                margin-top: -10px;
+                font-weight: 100;
+            }
+            .part3 .div3{
+                background-image: url(Photography.webp);
+                background-size: 70px 70px;
+                width: 70px;
+                height: 70px;
+                margin-left: 40px;
+                margin-top: 18px;
+                cursor: pointer;
+            }
+            .part3 .div4 h4{
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left: 25px;
+                margin-top: 18px;
+                font-weight: bolder;
+                cursor: pointer;
+            }
+            .part3 .div4 h4:hover{
+                color: #02529c;
+            }
+            .part3 .div4 h5{
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(153, 151, 151);
+                margin-left: 25px;
+                margin-top: -10px;
+                font-weight: 100;
+            }
+            .part3 .div5{
+                background-image: url(cookies.png);
+                background-size: 70px 70px;
+                width: 70px;
+                height: 70px;
+                margin-left: 20px;
+                margin-top: 35px;
+                cursor: pointer;
+            }
+            .part3 .div6 h4{
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left: 25px;
+                margin-top: 35px;
+                font-weight: bolder;
+                cursor: pointer;
+            }
+            .part3 .div6 h4:hover{
+                color: #02529c;
+            }
+            .part3 .div6 h5{
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(153, 151, 151);
+                margin-left: 25px;
+                margin-top: -10px;
+                font-weight: 100;
+            }
+            .part3 .div7{
+                background-image: url(old-days11.png);
+                background-size: 70px 70px;
+                width: 70px;
+                height: 70px;
+                margin-left: 51px;
+                margin-top: 35px;
+                cursor: pointer;
+            }
+            .part3 .div8 h4{
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left: 25px;
+                margin-top: 35px;
+                font-weight: bolder;
+                cursor: pointer;
+            }
+            .part3 .div8 h4:hover{
+                color: #02529c;
+            }
+            .part3 .div8 h5{
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(153, 151, 151);
+                margin-left: 25px;
+                margin-top: -10px;
+                font-weight: 100;
+            }
+            .part3 .div9{
+                background-image: url(caffeine11.png);
+                background-size: 70px 70px;
+                width: 70px;
+                height: 70px;
+                margin-left: 20px;
+                margin-top: 35px;
+                cursor: pointer;
+            }
+            .part3 .div10 h4{
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left: 25px;
+                margin-top: 35px;
+                font-weight: bolder;
+                cursor: pointer;
+            }
+            .part3 .div10 h4:hover{
+                color: #02529c;
+            }
+            .part3 .div10 h5{
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(153, 151, 151);
+                margin-left: 25px;
+                margin-top: -10px;
+                font-weight: 100;
+            }
+            .part3 .div11{
+                background-image: url(salad.webp);
+                background-size: 70px 70px;
+                width: 70px;
+                height: 70px;
+                margin-left: 76px;
+                margin-top: 35px;
+                cursor: pointer;
+            }
+            .part3 .div12 h4{
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left: 25px;
+                margin-top: 35px;
+                font-weight: bolder;
+                cursor: pointer;
+            }
+            .part3 .div12 h4:hover{
+                color: #02529c;
+            }
+            .part3 .div12 h5{
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(153, 151, 151);
+                margin-left: 25px;
+                margin-top: -10px;
+                font-weight: 100;
+            }
+            .part3 h1{
+                text-align: center;
+                font-size: 30px;
+                letter-spacing: 1px;
+                margin-top: 80px;
+            }
+            .part3 .salad{
+                background-color: #dddcdc;
+                border: none;
+                height: 35px;
+                width: 90px;
+                border-radius: 3px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 800;
+                font-size: 12px;
+                letter-spacing: 1px;
+                color: rgb(65, 65, 65);
+                margin-left: 245px;
+                margin-top: 10px;
+                transition: 0.5s;
+            }
+            .part3 .recipe{
+                background-color: #dddcdc;
+                border: none;
+                height: 35px;
+                width: 95px;
+                border-radius: 3px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 800;
+                font-size: 12px;
+                letter-spacing: 1px;
+                color: rgb(65, 65, 65);
+                margin-left: 16px;
+                margin-top: 10px;
+                transition: 0.5s;
+            }
+            .part3 .places{
+                background-color: #dddcdc;
+                border: none;
+                height: 35px;
+                width: 105px;
+                border-radius: 3px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 800;
+                font-size: 12px;
+                letter-spacing: 1px;
+                color: rgb(65, 65, 65);
+                margin-left: 16px;
+                margin-top: 10px;
+                transition: 0.5s;
+            }
+            .part3 .tips{
+                background-color: #dddcdc;
+                border: none;
+                height: 35px;
+                width: 75px;
+                border-radius: 3px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 800;
+                font-size: 12px;
+                letter-spacing: 1px;
+                color: rgb(65, 65, 65);
+                margin-left: 16px;
+                margin-top: 10px;
+                transition: 0.5s;
+            }
+            .part3 .friends{
+                background-color: #dddcdc;
+                border: none;
+                height: 35px;
+                width: 108px;
+                border-radius: 3px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 800;
+                font-size: 12px;
+                letter-spacing: 1px;
+                color: rgb(65, 65, 65);
+                margin-left: 16px;
+                margin-top: 10px;
+                transition: 0.5s;
+            }
+            .part3 .travel{
+                background-color: #dddcdc;
+                border: none;
+                height: 35px;
+                width: 95px;
+                border-radius: 3px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 800;
+                font-size: 12px;
+                letter-spacing: 1px;
+                color: rgb(65, 65, 65);
+                margin-left: 16px;
+                margin-top: 10px;
+                transition: 0.5s;
+            }
+            .part3 .exercise{
+                background-color: #dddcdc;
+                border: none;
+                height: 35px;
+                width: 113px;
+                border-radius: 3px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 800;
+                font-size: 12px;
+                letter-spacing: 1px;
+                color: rgb(65, 65, 65);
+                margin-left: 16px;
+                margin-top: 10px;
+                transition: 0.5s;
+            }
+            .part3 .reading{
+                background-color: #dddcdc;
+                border: none;
+                height: 35px;
+                width: 113px;
+                border-radius: 3px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 800;
+                font-size: 12px;
+                letter-spacing: 1px;
+                color: rgb(65, 65, 65);
+                margin-left: 380px;
+                transition: 0.5s;
+            }
+            .part3 .running{
+                background-color: #dddcdc;
+                border: none;
+                height: 35px;
+                width: 113px;
+                border-radius: 3px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 800;
+                font-size: 12px;
+                letter-spacing: 1px;
+                color: rgb(65, 65, 65);
+                margin-left: 16px;
+                transition: 0.5s;
+            }
+            .part3 .self-help{
+                background-color: #dddcdc;
+                border: none;
+                height: 35px;
+                width: 120px;
+                border-radius: 3px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 800;
+                font-size: 12px;
+                letter-spacing: 1px;
+                color: rgb(65, 65, 65);
+                margin-left: 16px;
+                transition: 0.5s;
+            }
+            .part3 .vacation{
+                background-color: #dddcdc;
+                border: none;
+                height: 35px;
+                width: 118px;
+                border-radius: 3px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 800;
+                font-size: 12px;
+                letter-spacing: 1px;
+                color: rgb(65, 65, 65);
+                margin-left: 16px;
+                transition: 0.5s;
+                margin-bottom: 100px;
+            }
+            .part3 .buttons button:hover{
+                cursor: pointer;
+                background-color: black;
+                color: white;
+                transition: 0.5s;
+            }
+            .part4{
+                background-color: rgb(29, 28, 28);
+                margin: 0px;
+                margin-top: -15px;
+            }
+            .part4 ul{
+                display: flex;
+            }
+            .part4 li{
+                list-style: none;   
+            }
+            .part4 .quick-links h5{
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                margin-left: 55px;
+                margin-top: 100px;
+                letter-spacing: 2px;
+                font-size: smaller;
+            }
+            .part4 .archives h5{
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                margin-left: 105px;
+                margin-top: 100px;
+                letter-spacing: 2px;
+                font-size: smaller;
+            }
+            .part4 .social h5{
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                margin-left: 100px;
+                margin-top: 100px;
+                letter-spacing: 2px;
+                font-size: smaller;
+            }
+            .part4 .our-newsletter h5{
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                margin-left: 190px;
+                margin-top: 100px;
+                letter-spacing: 2px;
+                font-size: smaller;
+            }
+            .part4 .q-l-line{
+                background-color: rgb(53, 52, 52);
+                width: 110px;
+                height: 1px;
+                margin-left: 54px;
+                margin-top: 40px;
+            }
+            .part4 .archives-line{
+                background-color: rgb(53, 52, 52);
+                width: 110px;
+                height: 1px;
+                margin-left: 102px;
+                margin-top: 40px;
+            }
+            .part4 .social-line{
+                background-color: rgb(53, 52, 52);
+                width: 110px;
+                height: 1px;
+                margin-left: 100px;
+                margin-top: 40px;
+            }
+            .part4 .o-n-line{
+                background-color: rgb(53, 52, 52);
+                width: 110px;
+                height: 1px;
+                margin-left: 190px;
+                margin-top: 40px;
+            }
+            .part4 .quick-links .q-l-list ul{
+                display: flex;
+                flex-direction: column;
+                margin-top: 40px;
+            }
+            .part4 .quick-links .q-l-list li{
+                list-style: none;
+
+            }
+            .part4 .quick-links .q-l-list h4{
+                color: #FFFFFF66;
+                font-family: arial;
+                font-weight: 100;
+                font-size: 15px;
+                margin-left: 15px;
+                width: fit-content;
+                cursor: pointer;
+                margin-top: -7;
+            }
+            .part4 .archives .archives-list ul{
+                display: flex;
+                flex-direction: column;
+                margin-top: 40px;
+            }
+            .part4 .archives .archives-list li{
+                list-style: none;
+            }
+            .part4 .archives .archives-list h4{
+                color: #FFFFFF66;
+                font-family: arial;
+                font-weight: 100;
+                font-size: 15px;
+                margin-left: 62px;
+                width: fit-content;
+                cursor: pointer;
+                margin-top: -7;
+            }
+            .part4 .social .social-list ul{
+                display: flex;
+                flex-direction: column;
+                margin-top: 40px;
+            }
+            .part4 .social .social-list li{
+                list-style: none;
+            }
+            .part4 .social .social-list h4{
+                color: #FFFFFF66;
+                font-family: arial;
+                font-weight: 100;
+                font-size: 15px;
+                margin-left: 62px;
+                width: fit-content;
+                cursor: pointer;
+                margin-top: -7;
+            }
+            .part4 .our-newsletter p{
+                font-family: arial;
+                color: #FFFFFF66;
+                margin-left: 190px;
+                margin-top: 32px;
+                word-spacing: 1px;
+                font-size: 15px;
+                letter-spacing: 0.2px;
+                line-height: 30px;
+            }
+            .part4 .our-newsletter .email{
+                background-image: url(email.png);
+                background-size: 57px 50px;
+                width: 57px;
+                height: 50px;
+                margin-left: 150px;
+                margin-top: 18px;
+                cursor: pointer;
+            }
+            .part4 .our-newsletter #email{
+                background-color: #161618;
+                width: 303px;
+                height: 50px;
+                margin-top: 18px;
+                border: none;
+                letter-spacing: 0.3px;
+                font-weight: bold;
+                color: white;
+            }
+            .part4 .our-newsletter .button{
+               margin: 0%;
+               background-color: #0054a5;
+               border: none;
+               width: 70px;
+               height: 50px;
+               margin-top: 18px;
+               color: white;
+               font-weight: bolder;
+               letter-spacing: 1.5px;
+               font-size: 13px;
+               font-family: arial;
+            }
+            .part4 .end ul{
+                display: flex;
+                margin-left: 45px;
+            }
+            .part4 .end li{
+                list-style: none;
+            }
+            .part4 .end h4{
+                color: #FFFFFF66;
+                font-family: arial;
+                font-weight: 100;
+                font-size: 15px;
+                margin-top: 50px;
+                width: fit-content;
+                margin-left: 15px;
+                letter-spacing: 0.5px;
+            }
+            .part4 .end .h2{
+                color: #68666666;
+                cursor: default;
+            }
+            .part4 .end .h4{
+                color: white;
+                transition: 0.3s;
+                margin-left: 5px;
+            }
+            .part4 .end .h4:hover{
+                cursor: pointer;
+                color: black;
+                transition: 0.3s;
+            }
+			
+        </style>
+            <div class="part1">
+                <div class="index">
+                    <ul>
+                        <li><div class="img"></div></li>
+                        <li><div class="text">Philosophy.</div></li>
+                        <button onclick=""><h5>SEARCH</h5><div class="search"></div></button>
+                    </ul>
+                    <div class="line"></div>
+                </div>
+                <div class="button">
+                    <button style="color: white;" onclick="" class="menu">Home</button>
+                    <button onclick="" class="menu"><select style="width: 92px;">
+                                                            <option>Catagories</option>
+                                                            <option>LifeStyle</option>
+                                                            <option>Healt</option>
+                                                            <option>Family</option>
+                                                            <option>Management</option>
+                                                            <option>Travel</option>
+                                                            <option>Work</option>
+                                                    </select>
+                                                </button>
+                    <button onclick="" class="menu"><select style="width: 54px;">
+                                                            <option>Blog</option>
+                                                            <option>Video Post</option>
+                                                            <option>Audio Post</option>
+                                                            <option>Gallery Post</option>
+                                                            <option>Standard Post</option>
+                                                    </select>
+                                                </button>
+                    <button onclick="" class="menu">Styles</button>
+                    <button onclick="" class="menu">About</button>
+                    <button onclick="" class="menu">Contact</button>
+                    <ul>
+                        <li><div class="portfolio1">
+                                <button onclick="">MUSIC</button>
+                                <br>
+                                <h1>What Your Music Preference <br>Says About You and Your<br> Personality.</h1>
+                                <ul>
+                                    <li><div class="john"></div></li>
+                                    <li>Mr. Ali <li class="sub-list1">December 29, 2017</li></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><div class="portfolio2">
+                                <button onclick="">MANAGMENT</button>
+                                <br>
+                                <h1>The Pomodoro Technique Really<br> Works.</h1>
+                                <ul>
+                                    <li>Mr. Ali <li class="sub-list2">December 27, 2017</li></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><div class="portfolio3">
+                                <button onclick="">LIFESTYLE</button>
+                                <br>
+                                <h1>Throwback To The Good Old<br> Days.</h1>
+                                <ul>
+                                    <li>Mr. Ali <li class="sub-list3">December 21, 2017</li></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div class="part2">
+                <ul>
+                    <li>
+                        <div class="standard"></div>
+                        <div class="sub-standard">
+                            <p style="cursor: pointer;">December 15, 2017</p>
+                            <h1>Just a Standard<br> Format Post.</h1>
+                            <p style="margin-top: -30px;">Lorem ipsum Sed eiusmod esse<br>
+                                aliqua sed incididunt aliqua<br>
+                                incididunt mollit id et sit proident<br>
+                                dolor nulla sed commodo est ad<br>
+                                minim elit reprehenderit nisi officia<br>
+                                aute incididunt velit sint in aliqua...
+                            </p>
+                            <br><br>
+                            <a style="transition: 0.5s;" class="standard-design" href="">Design,</a>
+                            <a style="transition: 0.5s;"  class="standard-photography" href="">Photography</a>
+                        </div>
+                        <div class="photography"></div>
+                        <div class="sub-photography">
+                            <p style="cursor: pointer;">December 10, 2017</p>
+                            <h1>Key Benefits Of<br> Family Photography.</h1>
+                            <p style="margin-top: -30px;">Lorem ipsum Sed eiusmod esse<br>
+                                aliqua sed incididunt aliqua<br>
+                                incididunt mollit id et sit proident<br>
+                                dolor nulla sed commodo est ad<br>
+                                minim elit reprehenderit nisi officia<br>
+                                aute incididunt velit sint in aliqua...
+                            </p>
+                            <br><br>
+                            <a style="transition: 0.5s;" class="family" href="">Family,</a>
+                            <a style="transition: 0.5s;"  class="photography-photography" href="">Photography</a>
+                        </div>
+                        <div class="colorlib">
+                            <span style="color: white;">fix</span>
+                            <div class="chain-icon"></div>
+                            <p>The Only Resource<br> You Will Need To<br> Start a Blog Using<br> WordPress..</p>
+                            <h4>https://colorlib.com</h4>
+                        </div>
+                        <div class="moments"></div>
+                        <div class="sub-moments">
+                            <p style="cursor: pointer;">December 10, 2017</p>
+                            <h1>Create Meaningful<br> Family Moments.</h1>
+                            <p style="margin-top: -30px;">Lorem ipsum Sed eiusmod esse<br>
+                                aliqua sed incididunt aliqua<br>
+                                incididunt mollit id et sit proident<br>
+                                dolor nulla sed commodo est ad<br>
+                                minim elit reprehenderit nisi officia<br>
+                                aute incididunt velit sint in aliqua...
+                            </p>
+                            <br><br>
+                            <a style="transition: 0.5s;" class="family1" href="">Family,</a>
+                            <a style="transition: 0.5s;"  class="relationship" href="">Relationship</a>
+                        </div>
+                        <div class="trip"></div>
+                        <div class="sub-trip">
+                            <p style="cursor: pointer;">December 10, 2017</p>
+                            <h1>Planning Your First<br> Trip to Sydney.</h1>
+                            <p style="margin-top: -30px;">Lorem ipsum Sed eiusmod esse<br>
+                                aliqua sed incididunt aliqua<br>
+                                incididunt mollit id et sit proident<br>
+                                dolor nulla sed commodo est ad<br>
+                                minim elit reprehenderit nisi officia<br>
+                                aute incididunt velit sint in aliqua...
+                            </p>
+                            <br><br>
+                            <a style="transition: 0.5s;" class="travel" href="">Travel,</a>
+                            <a style="transition: 0.5s;"  class="vacation" href="">Vacation</a>
+                        </div>
+                    </li>
+                    <li><div class="dieter">
+                            <h1>"</h1>
+                            <p>Good design is<br> making something<br> intelligible and<br> memorable. Great<br> design is making<br> something<br> memorable and<br> meaningful.</p>
+                            <h4>Dieter Rams</h4>
+                        </div>
+                        <div class="cookies"></div>
+                        <div class="sub-dieter">
+                            <p style="cursor: pointer;">December 10, 2017</p>
+                            <h1>No Sugar Oatmeal<br> Cookies.</h1>
+                            <p style="margin-top: -30px;">Lorem ipsum Sed eiusmod esse<br>
+                                aliqua sed incididunt aliqua<br>
+                                incididunt mollit id et sit proident<br>
+                                dolor nulla sed commodo est ad<br>
+                                minim elit reprehenderit nisi officia<br>
+                                aute incididunt velit sint in aliqua...
+                            </p>
+                            <br><br>
+                            <a style="transition: 0.5s;" class="cooking" href="">Cooking,</a>
+                            <a style="transition: 0.5s;"  class="cookies-health" href="">Health</a>
+                        </div>
+                        <div class="workspace"></div>
+                        <div class="sub-workspace">
+                            <p style="cursor: pointer;">December 10, 2017</p>
+                            <h1>Workspace Design<br> Trends and Ideas.</h1>
+                            <p style="margin-top: -30px;">Lorem ipsum Sed eiusmod esse<br>
+                                aliqua sed incididunt aliqua<br>
+                                incididunt mollit id et sit proident<br>
+                                dolor nulla sed commodo est ad<br>
+                                minim elit reprehenderit nisi officia<br>
+                                aute incididunt velit sint in aliqua...
+                            </p>
+                            <br><br>
+                            <a style="transition: 0.5s;" class="work" href="">Work,</a>
+                            <a style="transition: 0.5s;"  class="management" href="">Management</a>
+                        </div>
+                        <div class="old-days"></div>
+                        <div class="sub-old-days">
+                            <p style="cursor: pointer;">December 10, 2017</p>
+                            <h1>Throwback To The<br> Good Old Days.</h1>
+                            <p style="margin-top: -30px;">Lorem ipsum Sed eiusmod esse<br>
+                                aliqua sed incididunt aliqua<br>
+                                incididunt mollit id et sit proident<br>
+                                dolor nulla sed commodo est ad<br>
+                                minim elit reprehenderit nisi officia<br>
+                                aute incididunt velit sint in aliqua...
+                            </p>
+                            <br><br>
+                            <a style="transition: 0.5s;" href="">Lifestyle</a>
+                        </div>
+                    </li>
+                    <li><div class="caffeine"></div>
+                        <div class="sub-caffeine">
+                            <p style="cursor: pointer;">December 15, 2017</p>
+                            <h1>10 Interesting Facts<br> About Caffeine.</h1>
+                            <p style="margin-top: -30px;">Lorem ipsum Sed eiusmod esse<br>
+                                aliqua sed incididunt aliqua<br>
+                                incididunt mollit id et sit proident<br>
+                                dolor nulla sed commodo est ad<br>
+                                minim elit reprehenderit nisi officia<br>
+                                aute incididunt velit sint in aliqua...
+                            </p>
+                            <br><br>
+                            <a style="transition: 0.5s;" href="">Health</a>
+                        </div>
+                        <div class="parks"></div>
+                        <div class="sub-parks">
+                            <p style="cursor: pointer;">December 10, 2017</p>
+                            <h1>Visiting Theme Parks<br> Improves Your Health.</h1>
+                            <p style="margin-top: -30px;">Lorem ipsum Sed eiusmod esse<br>
+                                aliqua sed incididunt aliqua<br>
+                                incididunt mollit id et sit proident<br>
+                                dolor nulla sed commodo est ad<br>
+                                minim elit reprehenderit nisi officia<br>
+                                aute incididunt velit sint in aliqua...
+                            </p>
+                            <br><br>
+                            <a style="transition: 0.5s;" class="parks-health" href="">Health,</a>
+                            <a style="transition: 0.5s;"  class="parks-lifestyle" href="">Lifestyle</a>
+                        </div>
+                        <div class="music"></div>
+                        <div class="sub-music">
+                            <p style="cursor: pointer;">December 10, 2017</p>
+                            <h1>What Your Music<br> Preference Says About<br> You and Your<br> Personality.</h1>
+                            <p style="margin-top: -30px;">Lorem ipsum Sed eiusmod esse<br>
+                                aliqua sed incididunt aliqua<br>
+                                incididunt mollit id et sit proident<br>
+                                dolor nulla sed commodo est ad<br>
+                                minim elit reprehenderit nisi officia<br>
+                                aute incididunt velit sint in aliqua...
+                            </p>
+                            <br><br>
+                            <a style="transition: 0.5s;" class="music-music" href="">Music,</a>
+                            <a style="transition: 0.5s;"  class="music-lifestyle" href="">Lifestyle</a>
+                        </div>
+                        <div class="post"></div>
+                        <div class="sub-post">
+                            <p style="cursor: pointer;">December 10, 2017</p>
+                            <h1>Just Another Standard<br> Format Post.</h1>
+                            <p style="margin-top: -30px;">Lorem ipsum Sed eiusmod esse<br>
+                                aliqua sed incididunt aliqua<br>
+                                incididunt mollit id et sit proident<br>
+                                dolor nulla sed commodo est ad<br>
+                                minim elit reprehenderit nisi officia<br>
+                                aute incididunt velit sint in aliqua...
+                            </p>
+                            <br><br>
+                            <a style="transition: 0.5s;" class="post-design" href="">Design,</a>
+                            <a style="transition: 0.5s;"  class="post-photography" href="">Photography</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li><button onclick="" class="arrow-left"></button></li>
+                    <li><button onclick="" class="b1">1</button></li>
+                    <li><button onclick="" class="b2">2</button></li>
+                    <li><button onclick="" class="b3">3</button></li>
+                    <li><button onclick="" class="b4">4</button></li>
+                    <li><button onclick="" class="b5">5</button></li>
+                    <li><button onclick="" class="bdots">...</button></li>
+                    <li><button onclick="" class="b8">8</button></li>
+                    <li><button onclick="" class="arrow-right"></button></li>
+                </ul>
+            </div>
+            <div class="part3">
+                <ul>
+                    <li><div class="heading1"><h1>Popular Posts</h1></div>
+                        <ul>
+                            <li><div class="div1"></div></li>
+                            <li><div class="div2">
+                                    <h4>Visiting Theme Parks Improves<br> Your Health.</h4>
+                                    <h5>By John Doe on Dec 19, 2017</h5>
+                                </div>
+                            </li>
+                            <li><div class="div3"></div></li>
+                            <li><div class="div4">
+                                    <h4>Key Benefits Of Family<br> Photography.</h4>
+                                    <h5>By John Doe on Dec 18, 2017</h5>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><div class="div5"></div></li>
+                            <li><div class="div6">
+                                    <h4>Absolutely No Sugar Oatmeal<br> Cookies.</h4>
+                                    <h5>By John Doe on Dec 16, 2017</h5>
+                                </div>
+                            </li>
+                            <li><div class="div7"></div></li>
+                            <li><div class="div8">
+                                    <h4>Throwback To The Good Old<br>  Days.</h4>
+                                    <h5>By John Doe on Dec 16, 2017</h5>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><div class="div9"></div></li>
+                            <li><div class="div10">
+                                    <h4>10 Interesting Facts About<br> Caffeine.</h4>
+                                    <h5>By John Doe on Dec 14, 2017</h5>
+                                </div>
+                            </li>
+                            <li><div class="div11"></div></li>
+                            <li><div class="div12">
+                                    <h4>Healthy Mediterranean Salad<br> Recipes</h4>
+                                    <h5>By John Doe on Dec 12, 2017</h5>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><div class="heading2"><h1>About Philosophy</h1>
+                            <p>
+                                Donec sollicitudin molestie malesuada. Nulla<br>
+                                quis lorem ut libero malesuada feugiat.<br>
+                                Pellentesque in ipsum id orci porta dapibus.<br>
+                                Vestibulum ante ipsum primis in faucibus<br>
+                                orci luctus et ultrices posuere cubilia Curae;<br>
+                                Donec velit neque, auctor sit amet aliquam<br>
+                                vel, ullamcorper sit amet ligula. Quisque velit<br>
+                                nisi, pretium ut lacinia in, elementum id enim.<br>
+                                Donec sollicitudin molestie malesuada.
+                            </p>
+                            <ul>
+                                <li><div class="facebook2"></div></li>
+                                <li><div class="twitter2"></div></li>
+                                <li><div class="instagram2"></div></li>
+                                <li><div class="pin2"></div></li>
+                            </ul>
+                        </div>     
+                    </li>
+                </ul>
+                <section class="tags"><h1>Tags</h1></section>
+                <div class="buttons">
+                <ul>
+                    <li><button class="salad">SALAD</button></li>
+                    <li><button class="recipe">RECIPE</button></li>
+                    <li><button class="places">PLACES</button></li>
+                    <li><button class="tips">TIPS</button></li>
+                    <li><button class="friends">FRIENDS</button></li>
+                    <li><button class="travel">TRAVEL</button></li>
+                    <li><button class="exercise">EXERCISE</button></li>
+                </ul>
+                <ul>
+                    <li><button class="reading">READING</button></li>
+                    <li><button class="running">RUNNING</button></li>
+                    <li><button class="self-help">SELF-HELP</button></li>
+                    <li><button class="vacation">VACATION</button></li>
+                </ul>
+            </div>
+            </div>
+            <div class="part4">
+                <ul>
+                    <li><div class="quick-links">
+                            <h5>QUICK LINKS</h5>
+                            <div class="q-l-line"></div>
+                            <div class="q-l-list">
+                                <ul>
+                                    <li><h4>Home</h4></li>
+                                    <li><h4>Blog</h4></li>
+                                    <li><h4>Styles</h4></li>
+                                    <li><h4>About</h4></li>
+                                    <li><h4>Contact</h4></li>
+                                    <li><h4>Privacy Policy</h4></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><div class="archives">
+                        <h5>ARCHIVES</h5>
+                        <div class="archives-line"></div>
+                        <div class="archives-list">
+                            <ul>
+                                <li><h4>January 2018</h4></li>
+                                <li><h4>December 2017</h4></li>
+                                <li><h4>November 2017</h4></li>
+                                <li><h4>October 2017</h4></li>
+                                <li><h4>September 2017</h4></li>
+                                <li><h4>August 2017</h4></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </li>
+                    <li><div class="social">
+                        <h5>SOCIAL</h5>
+                        <div class="social-line"></div>
+                        <div class="social-list">
+                            <ul>
+                                <li><h4>Facebook</h4></li>
+                                <li><h4>Instagram</h4></li>
+                                <li><h4>Twitter</h4></li>
+                                <li><h4>Pinterest</h4></li>
+                                <li><h4>Google+</h4></li>
+                                <li><h4>Linkedln</h4></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </li>
+                    <li><div class="our-newsletter">
+                        <h5>OUR NEWSLETTER</h5>
+                        <div class="o-n-line"></div>
+                            <p>Sit vel delectus amet officiis repudiandae est voluptatem.<br>
+                            Tempora maxime provident nisi et fuga et enim exercitationem<br>
+                            ipsam. Culpa consequatur occaecati.
+                            </p>
+                            <ul>
+                                <li><div class="email"></div></li>
+                                <li><input placeholder="Email Address" type="text" id="email"></li>
+                                <li><button class="button" onclick="" >SEND</button></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="end">
+                    <ul>
+                        <li><h4>© Copyright Philosophy 2018</h4></li>
+                        <li><h4 class="h2">|</h4></li>
+                        <li><h4>Site Template by</h4></li>
+                        <li><h4 class="h4">Colorlib</h4></li>
+						<li><h4 class="h5">Developer: Muhammad Ali Raza</h4></li>
+						li><h4 class="h5">Phone No. +923091416573</h4></li>
+                    </ul>
+                </div>
+            </div>
+    </body>
+</html>
